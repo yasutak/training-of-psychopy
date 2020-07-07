@@ -18,7 +18,7 @@ PsychoPyのサイト(http://www.psychopy.org/) からダウンロード&
 大体インストールさいれたものをダブルクリックとかすればインスール開始される。
 細かい設定とかもあるけど、気にしない。
 
-![fig1](fig/fig1.png)
+<img src="fig/fig1.png" width="800px">
 
 ### 課題0の2
 *「PsychoPyのCoder画面を開こう！」*
@@ -34,17 +34,17 @@ Coderは、プログラミングになる。プログラミングは、将来そ
 勉強してないから、別のやつにしよう」となってはツマラナイ。
 やりたい研究を自由にできるように勉強したい。
 
-![fig2](fig/fig2.png)
+<img src="fig/fig2.png" width="800px">
 
 左端のアイコンを選ぶと新しいエディタがでてきます。このエディタ部分にコードを書き込んでいきます。
 
-![fig3](fig/fig3.png)
+<img src="fig/fig3.png" width="800px">
 
 コードがかけたら、緑色のアイコン（赤い矢印で指している）をクリックするとコードが実行できます。
 実行すると、下のOutput(出力)タブにその結果がでます。shell（シェル）では、Pythonコードを
 確認することができます（このコードはどういう動きをするのか確認したい時に便利です）。
 
-![fig4](fig/fig4.png)
+<img src="fig/fig4.png" width="800px">
 
 ### 課題0の3
 *「Shellでプログラミング入門をしよう！」*
@@ -52,7 +52,7 @@ Coderは、プログラミングになる。プログラミングは、将来そ
 なぜかわからないけど、プログラミグの最初の一歩では、”Hello World”って画面に
 表示させることが多い。「シェル」タブにコードを打ち込んで”Hello, Python!”と画面に表示させてみよう！
 
-![fig5](fig/fig5.png)
+<img src="fig/fig5.png" width="800px">
 
 「シェル」タブに以下のコードを打ち込もう。
 ```python
@@ -63,7 +63,7 @@ print(a)
 つまり、“Hello, Pyton!”という文字列をaという変数に入れます（格納なんて言ったりする）。
 そして、その“Hello, Pyton!”が入ったaを表示するにはprintという命令をつかいます。
 
-![fig6](fig/fig6.png)
+<img src="fig/fig6.png" width="800px">
 
 ## 課題１
 *「灰色の画面上に黒字で”Hello, Python!”と３秒間表示させよう！」*
@@ -151,7 +151,7 @@ RGB(赤緑青の三原色を混ぜる方法)では以下のような、数字で
 （〜.pyという名前のファイルをテキストエディタで開いて編集、PsychoPyで動作確認とすると早いです）。
 エディタは、なんでも良いのだけど、[Atom](https://github.com/atom/atom)が色々なOSで使えるし便利です。
 
-![fig7](fig/fig7.png)
+<img src="fig/fig7.png" width="800px">
 
 ## 課題2
 *「"1"、"2"、"3"、"4"、"5"の数字を１秒間ずつ画面に提示してみよう！」*
@@ -584,7 +584,7 @@ results=[]
 1. 出した文字の意味
 1. 出した文字の色
 1. 条件（一致条件、不一致条件）
-1. 反応
+1. **反応**
 1. 正答か誤答
 1. 反応時間
 
@@ -738,7 +738,7 @@ core.wait(10)
 #時計の準備
 stopwatch = core.Clock()
 #動画刺激の準備
-mov1 = visual.MovieStim3(myWin, 'sea.mov',size = [640,480])
+mov1 = visual.MovieStim3(myWin, 'sea.mov',size = [800,480])
 mov1.play()
 #時計のリセット
 stopwatch.reset()
